@@ -1,0 +1,93 @@
+File Header / Code Block
+
+
+A file header is a section at the top of a source code file that typically includes important information about the file and its contents. This information may include details about the author of the code, the date it was created, a description of the code's purpose or function, and any related licensing or copyright information.
+
+The purpose of a file header is to provide context and information about the code, which can help with future maintenance, troubleshooting, and collaboration with other developers. The header serves as a quick reference point for users who need to understand what the code does, who created it, and how it can be used.
+
+Including detailed file headers can also help establish ownership of the code and ensure that it is used in compliance with the intended license terms. By including author information and licensing information in the file header, users know who to contact with questions or issues, and can use the code with confidence.
+
+Overall, a well-crafted file header can provide valuable information and context to help users effectively work with the code and ensure that it is used in the intended way.
+
+------------------------------------
+
+/*
+ * Name: John Smith
+ * Email: john.smith@example.com
+ * Date: 2021-10-01
+ * Description: A simple program that prints "Hello, world!" to the console.
+ */
+
+
+
+In this example, the author information is included as comments at the top of the file. The information includes the author's name, email address, and the date that the code was written. This information helps identify the author of the code and makes it easy for others to contact them if necessary.
+
+You can use a similar format for your own code and libraries. However, it's important to customize the information to fit your own needs and preferences. For example, you may want to include your website or social media handles along with your name and email address. You can also include a brief description of the code or library and any additional information that might be useful to users.
+
+By including author information in your code and libraries, you can help establish your ownership of the code and make it easier for others to use and contribute to your project.
+
+---------------------------------------------------------------
+
+
+
+
+Adding the License Information
+
+It's a good practice to include license information in your file header or file comment, particularly if you are releasing your code as open source. The license information should clearly specify the permissions and restrictions associated with using or modifying your code. 
+
+Including license information in your file header or file comment can help prevent misunderstandings and disputes over the use of your code. It also helps ensure that your code is used in compliance with your intended terms.
+
+When including license information, it's important to follow any guidelines or requirements associated with your chosen license. Many open-source licenses come with specific requirements for how license information should be displayed and formatted. Be sure to read the license carefully and follow the instructions for including license information in your code.
+
+Here's an example of including license information in a file header or file comment:
+
+
+/*
+ * Name: John Smith
+ * Email: john.smith@example.com
+ * Date: 2021-10-01
+ * Description: A simple program that prints "Hello, world!" to the console.
+ * 
+ * This code is licensed under the MIT License.
+ * See LICENSE.txt for more information.
+ */
+ 
+
+
+Some typical licenses
+
+1. MIT License - This is a permissive license that allows you to modify, distribute, and use the code for any purpose, including commercial use, as long as you include the original license in your code.
+
+2. Apache License 2.0 - This is another permissive license that allows you to modify, distribute, and use the code for any purpose, including commercial use, as long as you include the original license in your code and any modified versions.
+
+3. GNU General Public License (GPL) - This is a copyleft license that allows you to modify and distribute the code but requires that the code and any modifications also be licensed under the GPL. This license is best used for open-source projects that you want to keep free and open for others to use and modify.
+
+4. Creative Commons License - These are a set of licenses designed for works such as design, photography, and music. These licenses allow you to specify how others can use and distribute your work.
+
+
+It's important to carefully consider the terms of each license before choosing one. The MIT and Apache licenses are popular choices for open-source software, while the GPL is a good choice for projects that you want to keep free and open for others to use and modify, but require those same users to release their modifications under the same license. Creative Commons Licenses can be useful for works that are not software and need attribution rather than derived works.
+
+
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

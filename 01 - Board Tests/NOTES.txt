@@ -1,0 +1,12 @@
+/*
+ * File: NOTES.txt
+ * Author: Damian Cianci
+ * Date: 2023-7-20
+ *
+ * Description: Notes
+ */
+
+
+
+This is to test the DriveBrain PCB and the two Arduino Pro Micros for functionality.
+
