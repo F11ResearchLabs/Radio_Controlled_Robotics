@@ -29,7 +29,7 @@ void loop() {
 Wire.readBytes((byte*)&sdata, sizeof(sdata));
   Serial.print("Sensor 1: ");
   Serial.println(sdata.sensor01);
-//delay (100);
+//delay (100); //this is for latency testing - enable this and watch what happens
 
 if (sdata.sensor01 == 0){
   analogWrite(9,150);
