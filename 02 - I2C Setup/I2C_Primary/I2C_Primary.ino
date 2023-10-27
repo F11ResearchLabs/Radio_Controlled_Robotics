@@ -15,8 +15,6 @@ void setup() {
 
 Wire.begin(); // join i2c bus
 
-
-
 pinMode(pin1, OUTPUT);
 pinMode(pin2, OUTPUT);
 }
