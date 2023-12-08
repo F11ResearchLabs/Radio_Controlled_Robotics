@@ -1,3 +1,7 @@
+
+
+
+
 int receiver_pin = 6;
 
 int led1Pin = 15;
@@ -16,14 +20,21 @@ void setup() {
 
 void loop(){
 
-/*
+
 digitalWrite (led1Pin, HIGH);
-digitalWrite (led2Pin, HIGH);
-digitalWrite (led3Pin, HIGH);
-*/
-loop2();
+
+
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
