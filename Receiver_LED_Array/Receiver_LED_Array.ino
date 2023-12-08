@@ -1,18 +1,37 @@
 int receiver_pin = 6;
 
-int led1Pin = 14;
-int led2Pin = 16;
-int led3Pin = 15;
+int led1Pin = 15;
+int led2Pin = 18;
+int led3Pin = 14;
 
 void setup() {
   pinMode(receiver_pin, INPUT);
+  pinMode (led1Pin, OUTPUT);
+  pinMode (led2Pin, OUTPUT);
+  pinMode (led3Pin, OUTPUT);
   Serial.begin(9600);
 }
 
 
 
+void loop(){
 
-void loop() {
+/*
+digitalWrite (led1Pin, HIGH);
+digitalWrite (led2Pin, HIGH);
+digitalWrite (led3Pin, HIGH);
+*/
+loop2();
+
+}
+
+
+
+
+
+
+
+void loop2() {
 
 int pulseDuration = pulseIn(receiver_pin, HIGH);
 
